@@ -31,11 +31,6 @@ public:
 
         int edgeLength()
         {
-//            if (end == nullptr)
-//            {
-//                std::cout << "ебать ты даун\n";
-//                return 0;
-//            } else
             return *end - start + 1;
         }
     };
